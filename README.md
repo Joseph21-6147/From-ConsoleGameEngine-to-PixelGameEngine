@@ -1,7 +1,7 @@
 # From-ConsoleGameEngine-to-PixelGameEngine
 Contains code from most of JavidX9's ConsoleGameEngine video's that is ported to olcPixelGameEngine
 
-Being a fan of JavidX9 I implemented most of his video's. In 2017 he developed the olcConsoleGameEngine (CGE for short) as a console based platform for game, concept and algorithm developement. In 2018 the olcPixelGameEngine (PGE) v. 1.0 was introduced, and the accent shifted to development on the PGE. 
+Being a fan of JavidX9 I implemented most of his video's. In 2017 he developed the olcConsoleGameEngine (CGE for short) as a console based platform for game, concept and algorithm developement. In 2018 the olcPixelGameEngine (PGE) v. 1.0 was introduced, and the emphasis in the video's shifted to development on the PGE. 
 
 Recently the CGE has been deprecated and is no longer supported. It is still possible to follow the CGE based video's and doing the implementation on the old CGE platform, but you can also do the implementation on the newer, much more feature rich, cross platform and supported PGE. 
 
@@ -11,7 +11,7 @@ The original code is there as well, but I took the liberty to outcomment the "us
 
 I'm having no licence or copyright on this code whatsoever - the original GNU GPLv3 licence applies and is there in each of the code files. 
 
-In the header comment I added a little summary of adaptations I did. 
+In the header comment I added a little summary of adaptations I did per file. 
 
 Have fun with it!
 Joseph21
