@@ -7,9 +7,9 @@ Recently the CGE was deprecated and is no longer supported. It is still possible
 
 I implemented most of the CGE video's on the CGE platform, and ported most of them to the newer PGE platform afterwards. To help anyone who wants to follow these CGE based video's I decided to upload all these ports. I also put a cheat sheet that describes how to port from CGE to PGE yourself if you want.
 
-The original code is there as well, but I took the liberty to outcomment the "using namespace std;" lines and correct with scope resolution operators were necessary. You can recognize the CGE in the name. The file having the PGE in the name is the ported version of the code (I put them toghether to enable easy comparison of both versions).
+The original code is there as well, but I took the liberty to outcomment the "using namespace std;" lines wherever I found them, and correct with scope resolution operators where necessary. You can recognize the code based on the CGE platform by the CGE in the file name. The file having the PGE in the name is the ported version of the code. It's convenient to have them together to enable easy comparison of both versions.
 
-I'm having no licence or copyright on this code whatsoever - the original GNU GPLv3 license of the original writer applies and is there in each of the code files. 
+I'm having no licence or copyright on this code whatsoever - the original GNU GPLv3 license of the original writer applies and is there in each of the code files as they were in the originals. 
 
 In the header comment I added a little summary of the adaptations I did per file. 
 
