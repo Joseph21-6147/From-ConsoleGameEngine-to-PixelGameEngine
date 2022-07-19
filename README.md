@@ -9,7 +9,7 @@ I implemented most of the CGE video's on the CGE platform, and ported most of th
 
 The original code is there as well, but I took the liberty to outcomment the "using namespace std;" lines wherever I found them, and correct with scope resolution operators where necessary. You can recognize the code based on the CGE platform by the CGE in the file name. The file having the PGE in the name is the ported version of the code. It's convenient to have them together to enable easy comparison of both versions.
 
-I'm having no licence or copyright on this code whatsoever - the original GNU GPLv3 license of the original writer applies and is there in each of the code files as they were in the originals. 
+I'm having no licence or copyright on this code whatsoever - the original GNU GPLv3 license of the original creator applies and is there in each of the code files as they were in the originals. 
 
 In the header comment I added a little summary of the adaptations I did per file. 
 
