@@ -5,7 +5,7 @@ Being a fan of Javidx9 I implemented most of his videos. In 2017 he developed th
 
 In January 2022 the CGE was deprecated and is no longer supported. It is still possible to follow the CGE based videos and doing the implementation on the deprecated CGE platform, but you can also do the implementation on the newer, much more feature rich, cross platform and supported PGE. 
 
-I implemented most of the CGE videos on the CGE platform, and ported these implementations to the newer PGE platform afterwards. To help anyone who wants to follow these CGE based videos I decided to upload all these ports. I also put a cheat sheet that describes how to port from CGE to PGE yourself if you want.
+I implemented most of the CGE videos on the CGE platform, and ported these implementations to the newer PGE platform afterwards. To help anyone who wants to follow these CGE based videos I decided to upload all these ports. I also put a cheat sheet that describes how to port from CGE to PGE yourself if you want. And all the sprite files are converted from .spr to .png format, using Gorbit's sprite converter code (and a bit of my own hackery).
 
 The original code is there as well, but I took the liberty to outcomment the "using namespace std;" lines wherever I found them, and correct with scope resolution operators where necessary. You can recognize the code based on the CGE platform by the CGE in the file name. The file having the PGE in the name is the ported version of the code. I find it convenient to have them together to enable easy comparison of both versions.
 
