@@ -1,23 +1,53 @@
 # From-ConsoleGameEngine-to-PixelGameEngine
-Contains code that is ported from most of Javidx9s olcConsoleGameEngine videos to olcPixelGameEngine 
 
-Being a fan of Javidx9 I implemented most of his videos. In 2017 he developed the olcConsoleGameEngine (CGE for short) as a Windows console based platform for game, concept and algorithm development. In 2018 the olcPixelGameEngine (PGE) v. 1.0 was introduced, and the emphasis in the videos shifted to development on the PGE. 
+_July 19, 2022 - Inital posting_
 
-In January 2022 the CGE was deprecated and is no longer supported. It is still possible to follow the CGE based videos and doing the implementation on the deprecated CGE platform, but you can also do the implementation on the newer, much more feature rich, cross platform and supported PGE. 
+This repo contains code that is ported from most of Javidx9s olcConsoleGameEngine videos to olcPixelGameEngine.
 
-I implemented most of the CGE videos on the CGE platform, and ported these implementations to the newer PGE platform afterwards. To help anyone who wants to follow these CGE based videos I decided to upload all these ports. I also put a cheat sheet that describes how to port from CGE to PGE yourself if you want. And all the sprite files are converted from .spr to .png format, using Gorbit's sprite converter code (and a bit of my own hackery).
+Being a fan of Javidx9 I implemented most of his videos. In 2017 he developed the olcConsoleGameEngine (CGE for short) as a Windows console based platform for game, concept and algorithm development. In 2018 the olcPixelGameEngine (PGE) v. 1.0 was introduced, and the emphasis in the videos shifted to development on the PGE.
 
-The original code is there as well, but I took the liberty to outcomment the "using namespace std;" lines wherever I found them, and correct with scope resolution operators where necessary. You can recognize the code based on the CGE platform by the CGE in the file name. The file having the PGE in the name is the ported version of the code. I find it convenient to have them together to enable easy comparison of both versions.
+As of January 2022 the CGE was deprecated and is no longer supported. For some time it was still possible to run CGE-based code, but with the upgrade to Windows 11 the CGE no longer functioned correctly. Fortunately you can also do the implementation on the newer, much more feature rich, cross platform and supported PGE.
 
-Note: There are also a few programs that were developed for the bare Windows console originally (Snake, CaveDiver, Tetris and the first version of the First Person Shooter). This code is also included in this repo: I ported these programs to the ConsoleGameEngine first, and from there to the PixelGameEngine. The original (Windows console) versions can be identified by the CON in the file names.
+Initially I implemented most of the CGE videos on the CGE platform, and ported these implementations to the newer PGE platform afterwards. To help anyone who wants to follow these CGE based videos I decided to upload all these ports. I also put a cheat sheet that describes how to port from CGE to PGE yourself if you want. And all the sprite files are converted from .spr to .png format, using Gorbit's sprite converter code (and a bit of my own hackery).
 
-I'm having no licence or copyright on this code whatsoever - the original GNU GPLv3 license of the original creator applies and is there in each of the code files as they were in the originals. 
+The original CGE code is there as well, but I took the liberty to outcomment the "using namespace std;" lines wherever I found them, and correct with scope resolution operators where necessary. You can recognize the code based on the CGE platform by the CGE in the file name. The file having the PGE in the name is the ported version of the code (I find it convenient to have them together to enable easy comparison of both versions).
 
-In the header comment I added a little summary of the adaptations I did per file. 
+Note: There is also a handful of programs that were developed for the bare Windows console originally (Snake, CaveDiver, Tetris and the first version of the First Person Shooter). This code pre dates the CGE, but is also included in this repo: I ported these programs to the ConsoleGameEngine first, and from there to the PixelGameEngine. The original (Windows console) versions can be identified by the CON in the file names.
 
-**Update june 2, 2024 - code also available via PGEtinker**
+I'm having no licence or copyright on this code whatsoever - the original GNU GPLv3 license of the original creator applies and is there in each of the code files as they were in the originals.
 
-Recently Moros1138 released his PGEtinker, a tool for realtime compiling and running PGE based code using Emscriptem for the translation to WASM. (It probably contains much more very smart tricks and techniques, but I'm not able to explain them all :) ) He also ported all the CGE to PGE ported code to PGEtinker. Here's a list of links, courtesy of Moros1138!
+In the header comment I added a little summary of the adaptations I did per file.
+
+_Update june 2, 2024 - code also available via PGEtinker_
+
+In may 2024 Moros1138 released his PGEtinker, a tool for realtime compiling and running PGE based code in the browser (!) using Emscriptem for the translation to WASM. (It probably contains much more very smart tricks and techniques, which I'm not able to explain :) ) He also ported all the CGE to PGE ported code to PGEtinker. Below in this readme is a list of links where you can run these programs directly from your browser, courtesy of Moros1138!
+
+_Update may 1, 2025 - SGE versions in the repo (not completed)_
+
+A couple of years ago I wrote a port of the Pixel Game Engine (PGE) by Javidx9, using C++ and SDL2, and called it SDL-based Game Engine (SGE for short). The code can be found elsewhere in my github. As of april 2025 I started adding SGE versions of PGE programs to this repo (but never completed it). If you are not interested in the SDL-based Game Engine, just ignore these SGE files. 
+
+_Update april 2, 2026 - CGE code is executable again!_
+
+On the olc discord server voidstar-dev published an SDL2/OpenGL based port of the ConsoleGameEngine header file. I tested this header file on most of the CGE code in this repo, and everything appeared to work fine! Thanks to the efforts of this fellow coder it has become possible again to run CGE based code without porting it to PGE, cheers voidstar-dev! The header file and libs can be found here: https://gitlab.com/voidstar-dev/olc-console-game-engine-port
+
+Have fun with it!
+
+Joseph21
+
+
+_Special thanks to:_
+
+* **Javidx9** - for the CGE, the PGE, the console based code and all the inspiration you provided
+
+* **Gorbit** - for the spr to png converter code
+
+* **Moros1138** - for the PGEtinker 
+
+* **voidstar-dev** - for the SDL2/OpenGL based port of the Console Game Engine include file
+
+
+
+_PGEtinker links_
 
 OneLoneCoder_Asteroids.PGE.cpp                   - https://beta.pgetinker.com/s/98dA5VR2lMU
 
@@ -84,6 +114,4 @@ OneLoneCoder_Worms2.PGE.cpp                      - https://beta.pgetinker.com/s/
 OneLoneCoder_Worms3.PGE.cpp                      - https://beta.pgetinker.com/s/cPLcxz0SEMT
 
 
-Have fun with it!
 
-Joseph21
