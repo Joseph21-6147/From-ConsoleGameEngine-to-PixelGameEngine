@@ -22,9 +22,9 @@ _Update june 2, 2024 - code also available via PGEtinker_
 
 In may 2024 Moros1138 released his PGEtinker, a tool for realtime compiling and running PGE based code in the browser (!) using Emscriptem for the translation to WASM. (It probably contains much more very smart tricks and techniques, which I'm not able to explain :) ) He also ported all the CGE to PGE ported code to PGEtinker. Below in this readme is a list of links where you can run these programs directly from your browser, courtesy of Moros1138!
 
-_Update may 1, 2025 - SGE versions in the repo (not completed)_
+_Update may 1, 2025 - SGE versions in the repo_
 
-A couple of years ago I wrote a port of the Pixel Game Engine (PGE) by Javidx9, using C++ and SDL2, and called it SDL-based Game Engine (SGE for short). The code can be found elsewhere in my github. As of april 2025 I started adding SGE versions of PGE programs to this repo (but never completed it). If you are not interested in the SDL-based Game Engine, just ignore these SGE files. 
+A couple of years ago I wrote a port of the Pixel Game Engine (PGE) by Javidx9, using C++ and SDL2, and called it SDL-based Game Engine (SGE for short). The code for the game engine can be found elsewhere in my github. In april of 2025 I added all the SGE versions of PGE programs to this repo. If you are not interested in the SDL-based Game Engine, just ignore these SGE files. If you are interested, let me know if you find any bugs :)
 
 _Update april 2, 2026 - CGE code is executable again!_
 
